@@ -8,6 +8,7 @@ Implements:
 Steps:
 
 1) run a docker image
+
    $ docker container run -d -p 8501:8501 python:3.10 sleep infinity
    
 2) pip install -r requirements.txt
